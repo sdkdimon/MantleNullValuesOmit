@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/sdkdimon/MantleNullValuesOmit"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Dmitry Lizin" => "sdkdimon@gmail.com" }
-  s.source           = { :git => "https://github.com/sdkdimon/MTLJSONAdapterWithoutNil.git", :tag => s.version }
+  s.source           = { :git => "https://github.com/sdkdimon/MantleNullValuesOmit.git", :tag => s.version }
 
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
