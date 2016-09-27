@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A454D371D9A83370076B6BE /* MantleNullValuesOmit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A454D351D9A83370076B6BE /* MantleNullValuesOmit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE1BD2E1D9A852B00BDF456 /* MTLModel+NullValuesOmit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE1BD2C1D9A852B00BDF456 /* MTLModel+NullValuesOmit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE1BD2F1D9A852B00BDF456 /* MTLModel+NullValuesOmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1BD2D1D9A852B00BDF456 /* MTLModel+NullValuesOmit.m */; };
+		8AE1BD321D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE1BD301D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE1BD331D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1BD311D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.m */; };
+		F3E0C0316C8C1ED0D46B7F08 /* Pods_MantleNullValuesOmit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE218ACD5F477ADB20FB0C9 /* Pods_MantleNullValuesOmit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A454D321D9A83370076B6BE /* MantleNullValuesOmit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MantleNullValuesOmit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A454D351D9A83370076B6BE /* MantleNullValuesOmit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MantleNullValuesOmit.h; sourceTree = "<group>"; };
+		8A454D361D9A83370076B6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE1BD2C1D9A852B00BDF456 /* MTLModel+NullValuesOmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLModel+NullValuesOmit.h"; sourceTree = "<group>"; };
+		8AE1BD2D1D9A852B00BDF456 /* MTLModel+NullValuesOmit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTLModel+NullValuesOmit.m"; sourceTree = "<group>"; };
+		8AE1BD301D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLJSONAdapter+NullValuesOmit.h"; sourceTree = "<group>"; };
+		8AE1BD311D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTLJSONAdapter+NullValuesOmit.m"; sourceTree = "<group>"; };
+		9CE218ACD5F477ADB20FB0C9 /* Pods_MantleNullValuesOmit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MantleNullValuesOmit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE1AAFC1393A74CDD534361 /* Pods-MantleNullValuesOmit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MantleNullValuesOmit.release.xcconfig"; path = "Pods/Target Support Files/Pods-MantleNullValuesOmit/Pods-MantleNullValuesOmit.release.xcconfig"; sourceTree = "<group>"; };
+		DF10DDAF1AF17378D2CB1038 /* Pods-MantleNullValuesOmit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MantleNullValuesOmit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MantleNullValuesOmit/Pods-MantleNullValuesOmit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A454D2E1D9A83370076B6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E0C0316C8C1ED0D46B7F08 /* Pods_MantleNullValuesOmit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F519A5B053CF6D44CB925CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CE218ACD5F477ADB20FB0C9 /* Pods_MantleNullValuesOmit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31216D7AE534C4B82F83B63A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF10DDAF1AF17378D2CB1038 /* Pods-MantleNullValuesOmit.debug.xcconfig */,
+				CDE1AAFC1393A74CDD534361 /* Pods-MantleNullValuesOmit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A454D281D9A83370076B6BE = {
+			isa = PBXGroup;
+			children = (
+				8A454D341D9A83370076B6BE /* MantleNullValuesOmit */,
+				8A454D331D9A83370076B6BE /* Products */,
+				31216D7AE534C4B82F83B63A /* Pods */,
+				0F519A5B053CF6D44CB925CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A454D331D9A83370076B6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A454D321D9A83370076B6BE /* MantleNullValuesOmit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A454D341D9A83370076B6BE /* MantleNullValuesOmit */ = {
+			isa = PBXGroup;
+			children = (
+				8A454D351D9A83370076B6BE /* MantleNullValuesOmit.h */,
+				8A454D361D9A83370076B6BE /* Info.plist */,
+				8AE1BD2C1D9A852B00BDF456 /* MTLModel+NullValuesOmit.h */,
+				8AE1BD2D1D9A852B00BDF456 /* MTLModel+NullValuesOmit.m */,
+				8AE1BD301D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.h */,
+				8AE1BD311D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.m */,
+			);
+			path = MantleNullValuesOmit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A454D2F1D9A83370076B6BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE1BD2E1D9A852B00BDF456 /* MTLModel+NullValuesOmit.h in Headers */,
+				8A454D371D9A83370076B6BE /* MantleNullValuesOmit.h in Headers */,
+				8AE1BD321D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A454D311D9A83370076B6BE /* MantleNullValuesOmit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A454D3A1D9A83370076B6BE /* Build configuration list for PBXNativeTarget "MantleNullValuesOmit" */;
+			buildPhases = (
+				80858742610E9516E2AB3947 /* [CP] Check Pods Manifest.lock */,
+				8A454D2D1D9A83370076B6BE /* Sources */,
+				8A454D2E1D9A83370076B6BE /* Frameworks */,
+				8A454D2F1D9A83370076B6BE /* Headers */,
+				8A454D301D9A83370076B6BE /* Resources */,
+				D1244A6BAD7A80326984EDAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MantleNullValuesOmit;
+			productName = MantleNullValuesOmit;
+			productReference = 8A454D321D9A83370076B6BE /* MantleNullValuesOmit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A454D291D9A83370076B6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dimon;
+				TargetAttributes = {
+					8A454D311D9A83370076B6BE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N7KJYZ955Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A454D2C1D9A83370076B6BE /* Build configuration list for PBXProject "MantleNullValuesOmit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A454D281D9A83370076B6BE;
+			productRefGroup = 8A454D331D9A83370076B6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A454D311D9A83370076B6BE /* MantleNullValuesOmit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A454D301D9A83370076B6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80858742610E9516E2AB3947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1244A6BAD7A80326984EDAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MantleNullValuesOmit/Pods-MantleNullValuesOmit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A454D2D1D9A83370076B6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE1BD2F1D9A852B00BDF456 /* MTLModel+NullValuesOmit.m in Sources */,
+				8AE1BD331D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A454D381D9A83370076B6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A454D391D9A83370076B6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A454D3B1D9A83370076B6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF10DDAF1AF17378D2CB1038 /* Pods-MantleNullValuesOmit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N7KJYZ955Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MantleNullValuesOmit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sdkdimon.MantleNullValuesOmit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8A454D3C1D9A83370076B6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE1AAFC1393A74CDD534361 /* Pods-MantleNullValuesOmit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N7KJYZ955Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MantleNullValuesOmit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sdkdimon.MantleNullValuesOmit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A454D2C1D9A83370076B6BE /* Build configuration list for PBXProject "MantleNullValuesOmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A454D381D9A83370076B6BE /* Debug */,
+				8A454D391D9A83370076B6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A454D3A1D9A83370076B6BE /* Build configuration list for PBXNativeTarget "MantleNullValuesOmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A454D3B1D9A83370076B6BE /* Debug */,
+				8A454D3C1D9A83370076B6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A454D291D9A83370076B6BE /* Project object */;
+}

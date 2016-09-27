@@ -1,0 +1,6 @@
+framework module Pods_MantleNullValuesOmit {
+  umbrella header "Pods-MantleNullValuesOmit-umbrella.h"
+
+  export *
+  module * { export * }
+}
