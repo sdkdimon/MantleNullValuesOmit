@@ -15,6 +15,3 @@ Pod::Spec.new do |s|
   s.dependency 'Mantle', '2.1.0'
 
 end
-
-
-

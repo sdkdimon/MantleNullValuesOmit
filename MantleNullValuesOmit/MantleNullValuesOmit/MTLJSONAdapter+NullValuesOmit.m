@@ -21,32 +21,50 @@
 //  THE SOFTWARE.
 
 #import "MTLJSONAdapter+NullValuesOmit.h"
+
 #import "MTLModel+NullValuesOmit.h"
 #import <objc/runtime.h>
 
-@implementation MTLJSONAdapter (NullValuesOmit)
+@interface NSDictionary (MTL_MutableIfNeeded)
 
-+ (void)load{
-    Method method = class_getInstanceMethod(self, @selector(JSONDictionaryFromModel:error:));
-    Method override_Method = class_getInstanceMethod(self, @selector(override_JSONDictionaryFromModel:error:));
-    method_exchangeImplementations(method, override_Method);
+- (NSMutableDictionary *)mtl_mutableCopyIfNeeded;
+
+@end
+
+@implementation NSDictionary (MTL_MutableIfNeeded)
+
+- (NSMutableDictionary *)mtl_mutableCopyIfNeeded
+{
+    return [self isKindOfClass:[NSMutableDictionary class]] ? self : [self mutableCopy];
 }
 
+@end
 
-- (NSDictionary *)override_JSONDictionaryFromModel:(id<MTLJSONSerializing>)model error:(NSError *__autoreleasing *)error{
-    if ([model respondsToSelector:@selector(isOmitNullValues)] && [(MTLModel *)model isOmitNullValues]){
-        NSMutableDictionary *JSONDictionary = [[self override_JSONDictionaryFromModel:model error:error] mutableCopy];
+static IMP __Original_JSONDictionaryFromModel_IMP;
+
+@implementation MTLJSONAdapter (NullValuesOmit)
+
+NSDictionary *__Swizzle_JSONDictionaryFromModel(id self, SEL _cmd, id <MTLJSONSerializing> model, NSError *__autoreleasing *error)
+{
+    NSDictionary *(* __original_JSONDictionaryFromModel_IMP)(id, SEL, ...) = (NSDictionary *(*)(id, SEL, ...))__Original_JSONDictionaryFromModel_IMP;
+    NSMutableDictionary *JSONDictionary = [__original_JSONDictionaryFromModel_IMP(self, _cmd, model, error) mtl_mutableCopyIfNeeded];
+    if ([model respondsToSelector:@selector(isOmitNullValues)] && [(MTLModel *)model isOmitNullValues])
+    {
         NSMutableArray *keysToRemove = [[NSMutableArray alloc] init];
         for(NSString *key in JSONDictionary){
             id value = JSONDictionary[key];
             if(value == [NSNull null]) {[keysToRemove addObject:key];}
         }
         [JSONDictionary removeObjectsForKeys:keysToRemove];
-        return [JSONDictionary copy];
+        return JSONDictionary;
     }
-    
-    return [[self override_JSONDictionaryFromModel:model error:error] mutableCopy];
+    return JSONDictionary;
 }
 
++ (void)load
+{
+    Method method = class_getInstanceMethod(self, @selector(JSONDictionaryFromModel:error:));
+    __Original_JSONDictionaryFromModel_IMP = method_setImplementation(method, (IMP)__Swizzle_JSONDictionaryFromModel);
+}
 
 @end

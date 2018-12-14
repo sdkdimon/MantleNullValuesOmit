@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_MantleNullValuesOmitVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MantleNullValuesOmitVersionString[];
+FOUNDATION_EXPORT double Pods_MantleNullValuesOmitTestsHostAppVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MantleNullValuesOmitTestsHostAppVersionString[];
 

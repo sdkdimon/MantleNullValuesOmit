@@ -6,9 +6,8 @@ use_frameworks!
 workspace 'MantleNullValuesOmit.xcworkspace'
 
 def shared_pods
-   pod 'Mantle', '2.0.7'
+   pod 'Mantle', '2.1.0'
 end
-
 
 target 'MantleNullValuesOmit' do
     project 'MantleNullValuesOmit.xcodeproj'
@@ -16,9 +15,12 @@ target 'MantleNullValuesOmit' do
     
 end
 
-target 'SampleMantleNullValuesOmit' do
-    project 'Sample/SampleMantleNullValuesOmit/SampleMantleNullValuesOmit.xcodeproj'
+target 'MantleNullValuesOmitTests' do
+    project 'MantleNullValuesOmit.xcodeproj'
     shared_pods
 end
 
-
+target 'MantleNullValuesOmitTestsHostApp' do
+    project 'MantleNullValuesOmit.xcodeproj'
+    
+end
