@@ -15,7 +15,8 @@
     return @{@"modelId" : @"modelId",
              @"name" : @"name",
              @"info" : @"info",
-             @"enabled" : @"enabled"};
+             @"enabled" : @"enabled",
+             @"innerModel" : @"innerModel"};
 }
 
 @end

@@ -37,7 +37,7 @@
     XCTAssertEqual(model.isOmitNullValues, YES, "MTL model omit default value NO");
 }
 
-- (void)testNullOmitingSingleModel
+- (void)testNullOmittingSingleModel
 {
     NSString *modelInfo = @"Model info";
     Model *model = [[Model alloc] init];
@@ -52,7 +52,7 @@
     XCTAssertEqual([[JSONModel objectForKey:@"enabled"] boolValue], YES, "Model enabled property must be equal to YES");
 }
 
-- (void)testNullOmitingArrayModel
+- (void)testNullOmittingArrayModel
 {
     NSString *modelInfo = @"Model info";
     NSMutableArray <Model *> *models = [[NSMutableArray alloc] init];
@@ -75,6 +75,26 @@
         XCTAssertEqual([[JSONModel objectForKey:@"enabled"] boolValue], YES, "Model enabled property must be equal to YES");
     }
     
+}
+
+- (void)testNullOmittingFromJSONDictionaryToModel
+{
+    NSDictionary *JSON = @{@"modelId" : NSNull.null,
+                           @"name" : @"Carl",
+                           @"info" : @"Test model",
+                           @"enabled" : NSNull.null,
+                           @"innerModel" : @{@"modelId" : NSNull.null,
+                                             @"name" : NSNull.null,
+                                             @"info" : NSNull.null,
+                                             @"enabled" : NSNull.null,
+                                             @"innerModel" : NSNull.null}
+    };
+    
+    Model *model = [MTLJSONAdapter modelOfClass:Model.class fromJSONDictionary:JSON error:nil];
+    XCTAssertNil(model.modelId);
+    XCTAssertFalse(model.enabled);
+    XCTAssertEqualObjects(model.name, @"Carl");
+    XCTAssertEqualObjects(model.info, @"Test model");
 }
 
 - (void)testPerformanceExample {

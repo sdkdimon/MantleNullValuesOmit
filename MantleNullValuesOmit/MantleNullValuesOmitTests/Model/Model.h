@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic, readwrite) NSString *name;
 @property (strong, nonatomic, readwrite) NSString *info;
 @property (assign, nonatomic, readwrite) BOOL enabled;
+@property (strong, nonatomic, readwrite) Model *innerModel;
 
 @end
 
