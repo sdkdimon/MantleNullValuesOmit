@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MantleNullValuesOmit"
-  s.version          = "0.0.3"
+  s.version          = "0.0.4"
   s.summary          = "Mantle categories that can ignore null values."
   s.homepage         = "https://github.com/sdkdimon/MantleNullValuesOmit"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.module_name = 'MantleNullValuesOmit'
   s.source_files = 'MantleNullValuesOmit/MantleNullValuesOmit/*.{h,m}'
-  s.dependency 'Mantle', '2.1.0'
+  s.dependency 'Mantle', '~> 2.1'
 end

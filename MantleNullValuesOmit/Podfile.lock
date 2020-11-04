@@ -1,18 +1,18 @@
 PODS:
-  - Mantle (2.1.0):
-    - Mantle/extobjc (= 2.1.0)
-  - Mantle/extobjc (2.1.0)
+  - Mantle (2.1.6):
+    - Mantle/extobjc (= 2.1.6)
+  - Mantle/extobjc (2.1.6)
 
 DEPENDENCIES:
-  - Mantle (= 2.1.0)
+  - Mantle (~> 2.1)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Mantle
 
 SPEC CHECKSUMS:
-  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
 
-PODFILE CHECKSUM: dfb5291b5882189ce010907279f5ce6d60248462
+PODFILE CHECKSUM: 8e6ef34bca4b15ee91bbe7e35a5c57dc208733d2
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.10.0
