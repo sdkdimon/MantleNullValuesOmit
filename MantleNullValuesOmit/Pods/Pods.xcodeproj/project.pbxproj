@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0B046A38FB2FD460EF9BDBDD3902AA48 /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4E4ADCA31F2CE57F6C3F357FDC5427 /* NSObject+MTLComparisonAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B1ABD5635B1DDA47F58D8CA42FFB1F7 /* Pods-MantleNullValuesOmitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6E5125DDF021836C3E47AD7F14DE00 /* Pods-MantleNullValuesOmitTests-dummy.m */; };
+		0B1ABD5635B1DDA47F58D8CA42FFB1F7 /* Pods-MantleNullValuesOmitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48D524B8018E3F891DA65EF45F86A76 /* Pods-MantleNullValuesOmitTests-dummy.m */; };
 		0B43196527104EC170B6AED5DB51012F /* NSDictionary+MTLMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A2C8CECE5A568161307A5131D01563 /* NSDictionary+MTLMappingAdditions.m */; };
-		12C18C05F314295E686FC46E819D7C2F /* Pods-MantleNullValuesOmit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 002DD3CC4745B7D592F8FBEF849A7F29 /* Pods-MantleNullValuesOmit-dummy.m */; };
-		1BEFC24B0CC6BEA97760CEE2A215C80D /* Pods-MantleNullValuesOmit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A373AA9AA1954C45937C38485FF91A /* Pods-MantleNullValuesOmit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		209086DFF1C8C64D888C271BB80CE0A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0F870CB42543E2FA4E10FE7C4D8BC4E0 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F6C1A5F92B284DD22CEF32996B291 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m */; };
+		12C18C05F314295E686FC46E819D7C2F /* Pods-MantleNullValuesOmit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5C2C220B0F74921FE65FFC1A49E211 /* Pods-MantleNullValuesOmit-dummy.m */; };
+		1BEFC24B0CC6BEA97760CEE2A215C80D /* Pods-MantleNullValuesOmit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 327449B38E03D8160A460B739EAB31D1 /* Pods-MantleNullValuesOmit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D0EF42F0AEF4764273858B2E5674493 /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 904CDB67EA5FE5123CA1CB6F150D6A4C /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269549EB866B94D688D7EA7A195DE87B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2C1FC34CB1D29C51398D5B9EA172C215 /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A1DC7156CB69BEA053773C334F779B /* NSError+MTLModelException.m */; };
 		2CE3C242E488AFD3DA8A81A0C1033C86 /* Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5451C89917B1A87E4B197BAD8F1A6389 /* Mantle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3838386144D028179C12A785ACD5D8B7 /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35821B628EE93BCF7D9EE66CD85F484E /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39CB793D19C9BF50FB3D708DEF930D3A /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F87108DF35293EBA70509A4ECDF7457 /* MTLReflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4555DFA2765019D1FB258DA8C5CE87F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4BC6F54EE325EC5A956329B2E7C84921 /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E5516FA96BFCC34701A2FFDB3B5AB0 /* MTLValueTransformer.m */; };
-		6D3292A46C869FC5D28A7B426FECDBB8 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82713F82C3479350E6470234C86A3731 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m */; };
 		7560408154BC63A6161807D6A8C8D9DA /* MTLEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C88B8AFB723156E5046F6F596FE73B /* MTLEXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		78DACF6C9779D7CFD8BF3857F6D3B0B2 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24871CFC99267A1817890210A89F93B4 /* NSArray+MTLManipulationAdditions.m */; };
 		7A7B68DD415CCB5DCC9387875E15269C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -53,10 +53,17 @@
 		F05CBEDAEB07122DCEACEF4E6C3F82CE /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FA979BC4F73C7DB00098F9633515F7 /* NSValueTransformer+MTLInversionAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F26EC10042F85398B9468235DD23EAC2 /* MTLEXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 23755A1D357B8BBE09EF48FDEB1DAD34 /* MTLEXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F3D49CC3559F3096CD405119D6BE45A6 /* MTLMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C906F280898FDA3E0F5414F86A4300 /* MTLMetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		FDA452E1DECD024F42D69FBA5CF3CD81 /* Pods-MantleNullValuesOmitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CC5962284F341DB053E0BB67707770 /* Pods-MantleNullValuesOmitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA452E1DECD024F42D69FBA5CF3CD81 /* Pods-MantleNullValuesOmitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C792229FE6E6A398BE0750B85C368402 /* Pods-MantleNullValuesOmitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A498B39AE6A52387C82500701D3D1472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CCF1D9F019FFC6546DA481B71A2C4E;
+			remoteInfo = Mantle;
+		};
 		F4DF8B1365DFD1A6490BAADD1ADDB74A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -75,7 +82,6 @@
 
 /* Begin PBXFileReference section */
 		00234E2618D0F42030A1A34A0553CFDD /* Mantle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mantle-Info.plist"; sourceTree = "<group>"; };
-		002DD3CC4745B7D592F8FBEF849A7F29 /* Pods-MantleNullValuesOmit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MantleNullValuesOmit-dummy.m"; sourceTree = "<group>"; };
 		00C16CC48FCDC50D6115083A7AE0D97E /* MTLTransformerErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLTransformerErrorHandling.m; path = Mantle/MTLTransformerErrorHandling.m; sourceTree = "<group>"; };
 		01A2C8CECE5A568161307A5131D01563 /* NSDictionary+MTLMappingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLMappingAdditions.m"; path = "Mantle/NSDictionary+MTLMappingAdditions.m"; sourceTree = "<group>"; };
 		0254421890D2CF7A60C21F034AA0AC9E /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Mantle/include/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
@@ -84,85 +90,87 @@
 		0EBCEBE68E7C1722FC72DC1D510A4925 /* NSError+MTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
 		1B0E299AADD37EA2725BEB65347EBB0E /* Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mantle-dummy.m"; sourceTree = "<group>"; };
 		1D7DBAD2A6E0ABC58688E15E3DC1E78E /* NSDictionary+MTLMappingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLMappingAdditions.h"; path = "Mantle/include/NSDictionary+MTLMappingAdditions.h"; sourceTree = "<group>"; };
-		1EE27A5C7C8B6B72AD85C749EE0922CE /* Pods-MantleNullValuesOmit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmit.release.xcconfig"; sourceTree = "<group>"; };
-		1F195C23EA9FEE90C06F3EAEB8729709 /* Pods-MantleNullValuesOmit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MantleNullValuesOmit.modulemap"; sourceTree = "<group>"; };
-		1F3C7B8689F0CD411B578F939E475292 /* Pods-MantleNullValuesOmit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MantleNullValuesOmit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F675BF1C1941E35C675940C224D8DD5 /* Pods-MantleNullValuesOmitTestsHostApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MantleNullValuesOmitTestsHostApp.modulemap"; sourceTree = "<group>"; };
+		206DF93D6F3D98FD549DC8B758BBE260 /* Pods-MantleNullValuesOmitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmitTests-Info.plist"; sourceTree = "<group>"; };
 		215A1EF1492799969283D82601300C98 /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
-		220538A7EE219170ED48D5679B5F436A /* Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig"; sourceTree = "<group>"; };
 		23755A1D357B8BBE09EF48FDEB1DAD34 /* MTLEXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLEXTRuntimeExtensions.h; path = Mantle/extobjc/include/MTLEXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		24871CFC99267A1817890210A89F93B4 /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
 		2DE034A23841B6467FF977E8CA4BFB7A /* Mantle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mantle.modulemap; sourceTree = "<group>"; };
 		2F87108DF35293EBA70509A4ECDF7457 /* MTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Mantle/MTLReflection.h; sourceTree = "<group>"; };
-		35821B628EE93BCF7D9EE66CD85F484E /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MantleNullValuesOmitTestsHostApp-umbrella.h"; sourceTree = "<group>"; };
+		31B8B17CECA435FCF5015BE44A3EA182 /* Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig"; sourceTree = "<group>"; };
+		327449B38E03D8160A460B739EAB31D1 /* Pods-MantleNullValuesOmit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MantleNullValuesOmit-umbrella.h"; sourceTree = "<group>"; };
+		35B1BCA3F965A8CACCD35EB8D72D9138 /* Pods-MantleNullValuesOmit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmit-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C500746B70D81E1886DD04E13CD4B0D /* MTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Mantle/MTLReflection.m; sourceTree = "<group>"; };
 		3CDE00F56D0286BA2372EE2BC181B0AA /* Mantle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantle.release.xcconfig; sourceTree = "<group>"; };
+		3D8C83709EEF9767E3EBCFE030A97B6E /* Pods-MantleNullValuesOmit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MantleNullValuesOmit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FE64FD54BCFBB15A047067E2806569D /* Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		45C88B8AFB723156E5046F6F596FE73B /* MTLEXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLEXTKeyPathCoding.h; path = Mantle/extobjc/include/MTLEXTKeyPathCoding.h; sourceTree = "<group>"; };
-		4880386D47F44FB2B15BE7D970A49C87 /* Pods-MantleNullValuesOmitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmitTests-Info.plist"; sourceTree = "<group>"; };
 		48EA9751C62E914F2F4EF40DE35B3534 /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
 		49734D2BC232E48600BD0EC1D81CA78F /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/include/MTLModel.h; sourceTree = "<group>"; };
+		502D9DC31BDBCECFF1F81A1CBFF4075C /* Pods-MantleNullValuesOmitTestsHostApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MantleNullValuesOmitTestsHostApp-frameworks.sh"; sourceTree = "<group>"; };
 		51FA979BC4F73C7DB00098F9633515F7 /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Mantle/include/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
 		5451C89917B1A87E4B197BAD8F1A6389 /* Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Mantle/include/Mantle.h; sourceTree = "<group>"; };
+		549F6C1A5F92B284DD22CEF32996B291 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MantleNullValuesOmitTestsHostApp-dummy.m"; sourceTree = "<group>"; };
 		561BA356D968EEE1892415632C82E643 /* Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-prefix.pch"; sourceTree = "<group>"; };
-		5679B8628FF3C185DC708B66C51EAA3C /* Pods-MantleNullValuesOmitTestsHostApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MantleNullValuesOmitTestsHostApp.modulemap"; sourceTree = "<group>"; };
-		5B0986D837843592CDFE7DF8F4783175 /* Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5F9F8C6C9A1441E6F6B70FD87F257E78 /* Pods_MantleNullValuesOmitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MantleNullValuesOmitTests.framework; path = "Pods-MantleNullValuesOmitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		641189108180E443808B508CED964DF6 /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
+		65D40AC705094ACB65485515EB771E97 /* Pods-MantleNullValuesOmitTestsHostApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmitTestsHostApp.release.xcconfig"; sourceTree = "<group>"; };
 		6668BF89F3303D18D2768C047B803C1A /* Mantle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-umbrella.h"; sourceTree = "<group>"; };
 		66C0A2E4C97D949B007E795D8036F445 /* MTLEXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLEXTScope.h; path = Mantle/extobjc/include/MTLEXTScope.h; sourceTree = "<group>"; };
+		688219AB79B54D374BE4BD269D9F5EEF /* Pods-MantleNullValuesOmitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmitTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BCD3E077861DE8917A0FFFBC6BD96CF /* Mantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mantle.framework; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		738A42D7581C07CFB1D4558648189784 /* Pods-MantleNullValuesOmit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmit-Info.plist"; sourceTree = "<group>"; };
 		75F4CB01F982FF15EB4D853FA085C3C4 /* NSDictionary+MTLJSONKeyPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLJSONKeyPath.h"; path = "Mantle/NSDictionary+MTLJSONKeyPath.h"; sourceTree = "<group>"; };
 		767D8E6964C8B413A032CE5C037BA23F /* MTLEXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLEXTScope.m; path = Mantle/extobjc/MTLEXTScope.m; sourceTree = "<group>"; };
+		770D6BF49FEC37D4B65B894C17868279 /* Pods-MantleNullValuesOmitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MantleNullValuesOmitTests.modulemap"; sourceTree = "<group>"; };
 		7B4E4ADCA31F2CE57F6C3F357FDC5427 /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Mantle/include/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
-		82713F82C3479350E6470234C86A3731 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MantleNullValuesOmitTestsHostApp-dummy.m"; sourceTree = "<group>"; };
 		86E28EFA5E4DAE3C30C095166827DAF8 /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/include/MTLValueTransformer.h; sourceTree = "<group>"; };
-		8728832F007A5E621503ABEE8BBD4EBF /* Pods-MantleNullValuesOmitTestsHostApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmitTestsHostApp-Info.plist"; sourceTree = "<group>"; };
-		898AA38B27177C6E57DFF7508EF73EFF /* Pods-MantleNullValuesOmitTestsHostApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmitTestsHostApp.release.xcconfig"; sourceTree = "<group>"; };
+		902391B5F7B207D97677FDF6996C97A3 /* Pods-MantleNullValuesOmit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmit.debug.xcconfig"; sourceTree = "<group>"; };
+		904CDB67EA5FE5123CA1CB6F150D6A4C /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MantleNullValuesOmitTestsHostApp-umbrella.h"; sourceTree = "<group>"; };
+		90A5BB98498261BDCFD47D106BACEAE9 /* Pods-MantleNullValuesOmit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmit-Info.plist"; sourceTree = "<group>"; };
 		94E5516FA96BFCC34701A2FFDB3B5AB0 /* MTLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
+		9C3DAA1066209A4A9A53F9E8CABFF72E /* Pods-MantleNullValuesOmit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmit.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F07C67A8B7D945E8453722CB9000B01 /* Pods-MantleNullValuesOmitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2ED967C0AB5918B3350D5BF5AEB4B0B /* NSDictionary+MTLJSONKeyPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLJSONKeyPath.m"; path = "Mantle/NSDictionary+MTLJSONKeyPath.m"; sourceTree = "<group>"; };
 		A8A1DC7156CB69BEA053773C334F779B /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
-		ACCC68A5F427B55DEE88A299E1414C9C /* Pods-MantleNullValuesOmitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MantleNullValuesOmitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE10294E0B0F45409BC0F5D1FF24C8A0 /* Pods-MantleNullValuesOmit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MantleNullValuesOmit.modulemap"; sourceTree = "<group>"; };
 		B0D80B6027D220688CF47E4038128AA1 /* Mantle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantle.debug.xcconfig; sourceTree = "<group>"; };
-		B82098BBF11DB7E5347BAA6C0540FB21 /* Pods-MantleNullValuesOmitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MantleNullValuesOmitTests-frameworks.sh"; sourceTree = "<group>"; };
-		B9A373AA9AA1954C45937C38485FF91A /* Pods-MantleNullValuesOmit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MantleNullValuesOmit-umbrella.h"; sourceTree = "<group>"; };
+		B228C9D46F8028CB350EC969FC0D76B7 /* Pods-MantleNullValuesOmitTestsHostApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmitTestsHostApp-Info.plist"; sourceTree = "<group>"; };
+		B232260A226B6099EF9ACC4D172DC8B9 /* Pods-MantleNullValuesOmitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MantleNullValuesOmitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA766C7D8456DDDFC8A520C6874ABBBA /* MTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Mantle/include/MTLJSONAdapter.h; sourceTree = "<group>"; };
 		BBC5D769089FEC654E8E58802E4F5A8F /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
 		BC3E56C4C0B4B28279229A234450119E /* Pods_MantleNullValuesOmitTestsHostApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MantleNullValuesOmitTestsHostApp.framework; path = "Pods-MantleNullValuesOmitTestsHostApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9E253A3191A347AEB70B93B50BB55 /* Pods_MantleNullValuesOmit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MantleNullValuesOmit.framework; path = "Pods-MantleNullValuesOmit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5CC5962284F341DB053E0BB67707770 /* Pods-MantleNullValuesOmitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MantleNullValuesOmitTests-umbrella.h"; sourceTree = "<group>"; };
-		C5CEA3D79D1640ED8022A3A3494FED76 /* Pods-MantleNullValuesOmitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C792229FE6E6A398BE0750B85C368402 /* Pods-MantleNullValuesOmitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MantleNullValuesOmitTests-umbrella.h"; sourceTree = "<group>"; };
 		C9C906F280898FDA3E0F5414F86A4300 /* MTLMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLMetamacros.h; path = Mantle/extobjc/include/MTLMetamacros.h; sourceTree = "<group>"; };
 		CB3FEA07C82473C704B1A399CB0DF7F8 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		CEED44BE1A5FA50CF65CD7A2EA20DED8 /* Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		D30CB1E4F435EDCFABC01082AF5D03FD /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Mantle/include/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
-		D3D0B968CD03DF58FAF1A76E2C2FABD8 /* Pods-MantleNullValuesOmit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmit.debug.xcconfig"; sourceTree = "<group>"; };
 		D6BC1B02D3A6EDCAD0F2EBEA42149C2D /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/include/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
-		D6DAF04D28FCE8B4D529FC51FC57851E /* Pods-MantleNullValuesOmit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmit-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA5C2C220B0F74921FE65FFC1A49E211 /* Pods-MantleNullValuesOmit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MantleNullValuesOmit-dummy.m"; sourceTree = "<group>"; };
+		DBC91019A6F49A69808FF7A640585349 /* Pods-MantleNullValuesOmitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmitTests.release.xcconfig"; sourceTree = "<group>"; };
 		DE0902A6B227D24E1D595E1E855ED3BF /* MTLTransformerErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLTransformerErrorHandling.h; path = Mantle/include/MTLTransformerErrorHandling.h; sourceTree = "<group>"; };
-		E452546839B8F8F6C5FB46BD66FB4601 /* Pods-MantleNullValuesOmitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmitTests.release.xcconfig"; sourceTree = "<group>"; };
-		E7A873C0603B0B52C3BCC61128F37793 /* Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E58C6DDD91D7A185F6D89EFCE1D23335 /* Pods-MantleNullValuesOmitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MantleNullValuesOmitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EAF9F4C8038458AC18D9E6FD6612EFD8 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
-		EB6E5125DDF021836C3E47AD7F14DE00 /* Pods-MantleNullValuesOmitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MantleNullValuesOmitTests-dummy.m"; sourceTree = "<group>"; };
-		F0E63FEF77BABE14FEC4E646F4C7899A /* Pods-MantleNullValuesOmitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MantleNullValuesOmitTests.modulemap"; sourceTree = "<group>"; };
+		F48D524B8018E3F891DA65EF45F86A76 /* Pods-MantleNullValuesOmitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MantleNullValuesOmitTests-dummy.m"; sourceTree = "<group>"; };
+		F7CE97EA6134A78D94E75C896653F182 /* Pods-MantleNullValuesOmitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MantleNullValuesOmitTests-frameworks.sh"; sourceTree = "<group>"; };
 		FDF1AEFDC41CCA8569A90EC8B15B2CCA /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Mantle/include/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B75C219994CA01C90D8EA3954B75823 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				209086DFF1C8C64D888C271BB80CE0A0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		33E9EAF11C861BCEDB7469A316109772 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4555DFA2765019D1FB258DA8C5CE87F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864BF173DAEE6FDBDEA277F7388053B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269549EB866B94D688D7EA7A195DE87B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,12 +193,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1498541C821DD7DE5FB0AE2CE6950467 /* Targets Support Files */ = {
+		2A36B3945047CED12C7A3E6C0D72A4F2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCAC9D7D5AAB4E4551F541263E56843D /* Pods-MantleNullValuesOmit */,
-				5A827F858000A74F8A51855F67A609EA /* Pods-MantleNullValuesOmitTests */,
-				A2317E10B1A327D104A3F4666F0D68D7 /* Pods-MantleNullValuesOmitTestsHostApp */,
+				AA010AF4E518617C4E06B57378777697 /* Pods-MantleNullValuesOmit */,
+				C43D1EC2177111EA2897C5F85E8CF52F /* Pods-MantleNullValuesOmitTests */,
+				CB171FBBB1BBE54BAB29EDE666F20170 /* Pods-MantleNullValuesOmitTestsHostApp */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -203,37 +211,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5A827F858000A74F8A51855F67A609EA /* Pods-MantleNullValuesOmitTests */ = {
+		AA010AF4E518617C4E06B57378777697 /* Pods-MantleNullValuesOmit */ = {
 			isa = PBXGroup;
 			children = (
-				F0E63FEF77BABE14FEC4E646F4C7899A /* Pods-MantleNullValuesOmitTests.modulemap */,
-				ACCC68A5F427B55DEE88A299E1414C9C /* Pods-MantleNullValuesOmitTests-acknowledgements.markdown */,
-				C5CEA3D79D1640ED8022A3A3494FED76 /* Pods-MantleNullValuesOmitTests-acknowledgements.plist */,
-				EB6E5125DDF021836C3E47AD7F14DE00 /* Pods-MantleNullValuesOmitTests-dummy.m */,
-				B82098BBF11DB7E5347BAA6C0540FB21 /* Pods-MantleNullValuesOmitTests-frameworks.sh */,
-				4880386D47F44FB2B15BE7D970A49C87 /* Pods-MantleNullValuesOmitTests-Info.plist */,
-				C5CC5962284F341DB053E0BB67707770 /* Pods-MantleNullValuesOmitTests-umbrella.h */,
-				9F07C67A8B7D945E8453722CB9000B01 /* Pods-MantleNullValuesOmitTests.debug.xcconfig */,
-				E452546839B8F8F6C5FB46BD66FB4601 /* Pods-MantleNullValuesOmitTests.release.xcconfig */,
+				AE10294E0B0F45409BC0F5D1FF24C8A0 /* Pods-MantleNullValuesOmit.modulemap */,
+				3D8C83709EEF9767E3EBCFE030A97B6E /* Pods-MantleNullValuesOmit-acknowledgements.markdown */,
+				35B1BCA3F965A8CACCD35EB8D72D9138 /* Pods-MantleNullValuesOmit-acknowledgements.plist */,
+				DA5C2C220B0F74921FE65FFC1A49E211 /* Pods-MantleNullValuesOmit-dummy.m */,
+				90A5BB98498261BDCFD47D106BACEAE9 /* Pods-MantleNullValuesOmit-Info.plist */,
+				327449B38E03D8160A460B739EAB31D1 /* Pods-MantleNullValuesOmit-umbrella.h */,
+				902391B5F7B207D97677FDF6996C97A3 /* Pods-MantleNullValuesOmit.debug.xcconfig */,
+				9C3DAA1066209A4A9A53F9E8CABFF72E /* Pods-MantleNullValuesOmit.release.xcconfig */,
 			);
-			name = "Pods-MantleNullValuesOmitTests";
-			path = "Target Support Files/Pods-MantleNullValuesOmitTests";
-			sourceTree = "<group>";
-		};
-		A2317E10B1A327D104A3F4666F0D68D7 /* Pods-MantleNullValuesOmitTestsHostApp */ = {
-			isa = PBXGroup;
-			children = (
-				5679B8628FF3C185DC708B66C51EAA3C /* Pods-MantleNullValuesOmitTestsHostApp.modulemap */,
-				5B0986D837843592CDFE7DF8F4783175 /* Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.markdown */,
-				E7A873C0603B0B52C3BCC61128F37793 /* Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.plist */,
-				82713F82C3479350E6470234C86A3731 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m */,
-				8728832F007A5E621503ABEE8BBD4EBF /* Pods-MantleNullValuesOmitTestsHostApp-Info.plist */,
-				35821B628EE93BCF7D9EE66CD85F484E /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h */,
-				220538A7EE219170ED48D5679B5F436A /* Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig */,
-				898AA38B27177C6E57DFF7508EF73EFF /* Pods-MantleNullValuesOmitTestsHostApp.release.xcconfig */,
-			);
-			name = "Pods-MantleNullValuesOmitTestsHostApp";
-			path = "Target Support Files/Pods-MantleNullValuesOmitTestsHostApp";
+			name = "Pods-MantleNullValuesOmit";
+			path = "Target Support Files/Pods-MantleNullValuesOmit";
 			sourceTree = "<group>";
 		};
 		B3EAB8CD4660D9E80C08DAFAB1384D87 /* Mantle */ = {
@@ -286,6 +277,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C43D1EC2177111EA2897C5F85E8CF52F /* Pods-MantleNullValuesOmitTests */ = {
+			isa = PBXGroup;
+			children = (
+				770D6BF49FEC37D4B65B894C17868279 /* Pods-MantleNullValuesOmitTests.modulemap */,
+				B232260A226B6099EF9ACC4D172DC8B9 /* Pods-MantleNullValuesOmitTests-acknowledgements.markdown */,
+				688219AB79B54D374BE4BD269D9F5EEF /* Pods-MantleNullValuesOmitTests-acknowledgements.plist */,
+				F48D524B8018E3F891DA65EF45F86A76 /* Pods-MantleNullValuesOmitTests-dummy.m */,
+				F7CE97EA6134A78D94E75C896653F182 /* Pods-MantleNullValuesOmitTests-frameworks.sh */,
+				206DF93D6F3D98FD549DC8B758BBE260 /* Pods-MantleNullValuesOmitTests-Info.plist */,
+				C792229FE6E6A398BE0750B85C368402 /* Pods-MantleNullValuesOmitTests-umbrella.h */,
+				E58C6DDD91D7A185F6D89EFCE1D23335 /* Pods-MantleNullValuesOmitTests.debug.xcconfig */,
+				DBC91019A6F49A69808FF7A640585349 /* Pods-MantleNullValuesOmitTests.release.xcconfig */,
+			);
+			name = "Pods-MantleNullValuesOmitTests";
+			path = "Target Support Files/Pods-MantleNullValuesOmitTests";
+			sourceTree = "<group>";
+		};
+		CB171FBBB1BBE54BAB29EDE666F20170 /* Pods-MantleNullValuesOmitTestsHostApp */ = {
+			isa = PBXGroup;
+			children = (
+				1F675BF1C1941E35C675940C224D8DD5 /* Pods-MantleNullValuesOmitTestsHostApp.modulemap */,
+				3FE64FD54BCFBB15A047067E2806569D /* Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.markdown */,
+				CEED44BE1A5FA50CF65CD7A2EA20DED8 /* Pods-MantleNullValuesOmitTestsHostApp-acknowledgements.plist */,
+				549F6C1A5F92B284DD22CEF32996B291 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m */,
+				502D9DC31BDBCECFF1F81A1CBFF4075C /* Pods-MantleNullValuesOmitTestsHostApp-frameworks.sh */,
+				B228C9D46F8028CB350EC969FC0D76B7 /* Pods-MantleNullValuesOmitTestsHostApp-Info.plist */,
+				904CDB67EA5FE5123CA1CB6F150D6A4C /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h */,
+				31B8B17CECA435FCF5015BE44A3EA182 /* Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig */,
+				65D40AC705094ACB65485515EB771E97 /* Pods-MantleNullValuesOmitTestsHostApp.release.xcconfig */,
+			);
+			name = "Pods-MantleNullValuesOmitTestsHostApp";
+			path = "Target Support Files/Pods-MantleNullValuesOmitTestsHostApp";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -293,7 +318,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E7EA04E37E0502169BAB3050B9FBA26F /* Pods */,
 				BE6776FE61E2C9EF36A42C3BE490E290 /* Products */,
-				1498541C821DD7DE5FB0AE2CE6950467 /* Targets Support Files */,
+				2A36B3945047CED12C7A3E6C0D72A4F2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -303,22 +328,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DCAC9D7D5AAB4E4551F541263E56843D /* Pods-MantleNullValuesOmit */ = {
-			isa = PBXGroup;
-			children = (
-				1F195C23EA9FEE90C06F3EAEB8729709 /* Pods-MantleNullValuesOmit.modulemap */,
-				1F3C7B8689F0CD411B578F939E475292 /* Pods-MantleNullValuesOmit-acknowledgements.markdown */,
-				D6DAF04D28FCE8B4D529FC51FC57851E /* Pods-MantleNullValuesOmit-acknowledgements.plist */,
-				002DD3CC4745B7D592F8FBEF849A7F29 /* Pods-MantleNullValuesOmit-dummy.m */,
-				738A42D7581C07CFB1D4558648189784 /* Pods-MantleNullValuesOmit-Info.plist */,
-				B9A373AA9AA1954C45937C38485FF91A /* Pods-MantleNullValuesOmit-umbrella.h */,
-				D3D0B968CD03DF58FAF1A76E2C2FABD8 /* Pods-MantleNullValuesOmit.debug.xcconfig */,
-				1EE27A5C7C8B6B72AD85C749EE0922CE /* Pods-MantleNullValuesOmit.release.xcconfig */,
-			);
-			name = "Pods-MantleNullValuesOmit";
-			path = "Target Support Files/Pods-MantleNullValuesOmit";
 			sourceTree = "<group>";
 		};
 		E0D15043F084D2487B44DB3495ABF33A /* Support Files */ = {
@@ -395,6 +404,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		309DC144D7B9B0C97CC0C3334BE1298D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0EF42F0AEF4764273858B2E5674493 /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D1835D940C36A017FD1B92C55B2F1C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -403,29 +420,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		857F521F23475D6A94CE2B9823C483FB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3838386144D028179C12A785ACD5D8B7 /* Pods-MantleNullValuesOmitTestsHostApp-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		46D73E02CEA50B1E3698232C257BD3A8 /* Pods-MantleNullValuesOmitTestsHostApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0BA685F4D8070F9F20B8F918618500D /* Build configuration list for PBXNativeTarget "Pods-MantleNullValuesOmitTestsHostApp" */;
+			buildConfigurationList = 94B7D9EF994983F50BBF4D6F2DF89D0B /* Build configuration list for PBXNativeTarget "Pods-MantleNullValuesOmitTestsHostApp" */;
 			buildPhases = (
-				857F521F23475D6A94CE2B9823C483FB /* Headers */,
-				7F85E318D5376E1C55D947C43C334541 /* Sources */,
-				1B75C219994CA01C90D8EA3954B75823 /* Frameworks */,
-				73A4E94EB32E8006F87421AB4DEAA69C /* Resources */,
+				309DC144D7B9B0C97CC0C3334BE1298D /* Headers */,
+				BE692B187DBE36AF6A06BD34361551D8 /* Sources */,
+				864BF173DAEE6FDBDEA277F7388053B5 /* Frameworks */,
+				CB77B7F02243CE00C4408CD9A5C8BCE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BE2E718FEFC88013A3A02EEA25592B1B /* PBXTargetDependency */,
 			);
 			name = "Pods-MantleNullValuesOmitTestsHostApp";
 			productName = "Pods-MantleNullValuesOmitTestsHostApp";
@@ -533,7 +543,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73A4E94EB32E8006F87421AB4DEAA69C /* Resources */ = {
+		CB77B7F02243CE00C4408CD9A5C8BCE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -590,11 +600,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F85E318D5376E1C55D947C43C334541 /* Sources */ = {
+		BE692B187DBE36AF6A06BD34361551D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3292A46C869FC5D28A7B426FECDBB8 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m in Sources */,
+				0F870CB42543E2FA4E10FE7C4D8BC4E0 /* Pods-MantleNullValuesOmitTestsHostApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +617,12 @@
 			target = 47CCF1D9F019FFC6546DA481B71A2C4E /* Mantle */;
 			targetProxy = FE648A7706B26FE955BD09C24EB4EBCE /* PBXContainerItemProxy */;
 		};
+		BE2E718FEFC88013A3A02EEA25592B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mantle;
+			target = 47CCF1D9F019FFC6546DA481B71A2C4E /* Mantle */;
+			targetProxy = A498B39AE6A52387C82500701D3D1472 /* PBXContainerItemProxy */;
+		};
 		C95AC7F16926238EFF3A0D44D6C25A4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mantle;
@@ -616,39 +632,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0868EEFAF2F7E0F84E3106BD2C8653FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 898AA38B27177C6E57DFF7508EF73EFF /* Pods-MantleNullValuesOmitTestsHostApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MantleNullValuesOmitTestsHostApp/Pods-MantleNullValuesOmitTestsHostApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MantleNullValuesOmitTestsHostApp/Pods-MantleNullValuesOmitTestsHostApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -717,7 +700,7 @@
 		};
 		25EE0C057139B6D70C189EC786CE435A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F07C67A8B7D945E8453722CB9000B01 /* Pods-MantleNullValuesOmitTests.debug.xcconfig */;
+			baseConfigurationReference = E58C6DDD91D7A185F6D89EFCE1D23335 /* Pods-MantleNullValuesOmitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -749,7 +732,7 @@
 		};
 		6730494EBD564A9BF3B8FFB39E12505F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3D0B968CD03DF58FAF1A76E2C2FABD8 /* Pods-MantleNullValuesOmit.debug.xcconfig */;
+			baseConfigurationReference = 902391B5F7B207D97677FDF6996C97A3 /* Pods-MantleNullValuesOmit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -779,9 +762,42 @@
 			};
 			name = Debug;
 		};
-		81D64BF46214B44C322FBB6A63EAABD4 /* Debug */ = {
+		6F6235B04BCB99C0723DDFCE103C1FEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 220538A7EE219170ED48D5679B5F436A /* Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig */;
+			baseConfigurationReference = 65D40AC705094ACB65485515EB771E97 /* Pods-MantleNullValuesOmitTestsHostApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MantleNullValuesOmitTestsHostApp/Pods-MantleNullValuesOmitTestsHostApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MantleNullValuesOmitTestsHostApp/Pods-MantleNullValuesOmitTestsHostApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75E360242E6CCD727D301076FE7C5D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B8B17CECA435FCF5015BE44A3EA182 /* Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -934,7 +950,7 @@
 		};
 		EC17093D20693CEF2FB22270BE03B65B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EE27A5C7C8B6B72AD85C749EE0922CE /* Pods-MantleNullValuesOmit.release.xcconfig */;
+			baseConfigurationReference = 9C3DAA1066209A4A9A53F9E8CABFF72E /* Pods-MantleNullValuesOmit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -967,7 +983,7 @@
 		};
 		F008DED9270A7DBB00270A9CC5F87E4F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E452546839B8F8F6C5FB46BD66FB4601 /* Pods-MantleNullValuesOmitTests.release.xcconfig */;
+			baseConfigurationReference = DBC91019A6F49A69808FF7A640585349 /* Pods-MantleNullValuesOmitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1028,11 +1044,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0BA685F4D8070F9F20B8F918618500D /* Build configuration list for PBXNativeTarget "Pods-MantleNullValuesOmitTestsHostApp" */ = {
+		94B7D9EF994983F50BBF4D6F2DF89D0B /* Build configuration list for PBXNativeTarget "Pods-MantleNullValuesOmitTestsHostApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81D64BF46214B44C322FBB6A63EAABD4 /* Debug */,
-				0868EEFAF2F7E0F84E3106BD2C8653FE /* Release */,
+				75E360242E6CCD727D301076FE7C5D3A /* Debug */,
+				6F6235B04BCB99C0723DDFCE103C1FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

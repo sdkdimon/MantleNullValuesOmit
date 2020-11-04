@@ -17,6 +17,8 @@
 		8A63FA7C21C2CB9900BA07A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A63FA7B21C2CB9900BA07A3 /* main.m */; };
 		8A63FA8621C2CD0600BA07A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A63FA8521C2CD0600BA07A3 /* LaunchScreen.storyboard */; };
 		8A63FA8921C2D31400BA07A3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A63FA8821C2D31400BA07A3 /* Model.m */; };
+		8ADA95202553266C008026E6 /* MantleNullValuesOmit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A454D321D9A83370076B6BE /* MantleNullValuesOmit.framework */; };
+		8ADA95212553266C008026E6 /* MantleNullValuesOmit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A454D321D9A83370076B6BE /* MantleNullValuesOmit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8AE1BD2E1D9A852B00BDF456 /* MTLModel+NullValuesOmit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE1BD2C1D9A852B00BDF456 /* MTLModel+NullValuesOmit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE1BD2F1D9A852B00BDF456 /* MTLModel+NullValuesOmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1BD2D1D9A852B00BDF456 /* MTLModel+NullValuesOmit.m */; };
 		8AE1BD321D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE1BD301D9A854500BDF456 /* MTLJSONAdapter+NullValuesOmit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,7 +41,28 @@
 			remoteGlobalIDString = 8A63FA6921C2CB9400BA07A3;
 			remoteInfo = MantleNullValuesOmitTestsHostApp;
 		};
+		8ADA95222553266C008026E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A454D291D9A83370076B6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A454D311D9A83370076B6BE;
+			remoteInfo = MantleNullValuesOmit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8ADA95242553266C008026E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8ADA95212553266C008026E6 /* MantleNullValuesOmit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2A21CFCFF70C74A1A0F2F23C /* Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MantleNullValuesOmitTestsHostApp/Pods-MantleNullValuesOmitTestsHostApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				145E68ECC7AE863B33CE5D44 /* Pods_MantleNullValuesOmitTestsHostApp.framework in Frameworks */,
+				8ADA95202553266C008026E6 /* MantleNullValuesOmit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +303,13 @@
 				8A63FA6621C2CB9400BA07A3 /* Sources */,
 				8A63FA6721C2CB9400BA07A3 /* Frameworks */,
 				8A63FA6821C2CB9400BA07A3 /* Resources */,
+				8ADA95242553266C008026E6 /* Embed Frameworks */,
+				49AE5551285588DFF93AAAC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8ADA95232553266C008026E6 /* PBXTargetDependency */,
 			);
 			name = MantleNullValuesOmitTestsHostApp;
 			productName = MantleNullValuesOmitTestsHostApp;
@@ -363,6 +390,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		49AE5551285588DFF93AAAC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MantleNullValuesOmitTestsHostApp/Pods-MantleNullValuesOmitTestsHostApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MantleNullValuesOmitTestsHostApp/Pods-MantleNullValuesOmitTestsHostApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		80858742610E9516E2AB3947 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,6 +530,11 @@
 			isa = PBXTargetDependency;
 			target = 8A63FA6921C2CB9400BA07A3 /* MantleNullValuesOmitTestsHostApp */;
 			targetProxy = 8A63FA8021C2CBA000BA07A3 /* PBXContainerItemProxy */;
+		};
+		8ADA95232553266C008026E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A454D311D9A83370076B6BE /* MantleNullValuesOmit */;
+			targetProxy = 8ADA95222553266C008026E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
