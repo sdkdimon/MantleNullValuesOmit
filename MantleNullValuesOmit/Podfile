@@ -1,12 +1,12 @@
 # Uncomment this line to define a global platform for your project
 
-platform :ios, '9.0'
+platform :ios, '12.0'
 use_frameworks!
 
 workspace 'MantleNullValuesOmit.xcworkspace'
 
 def shared_pods
-   pod 'Mantle', '~> 2.1'
+   pod 'DLMantle', '~> 2.2'
 end
 
 target 'MantleNullValuesOmit' do
@@ -22,4 +22,25 @@ end
 target 'MantleNullValuesOmitTestsHostApp' do
     project 'MantleNullValuesOmit.xcodeproj'
     shared_pods
+end
+
+post_install do |installer|
+  
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings['SDKROOT'] = 'iphoneos'
+    config.build_settings['TARGETED_DEVICE_FAMILY'] = '1'
+    config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = ''
+    config.build_settings['TVOS_DEPLOYMENT_TARGET'] = ''
+    config.build_settings['WATCHOS_DEPLOYMENT_TARGET'] = ''
+  end
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SDKROOT'] = '$(inherited)'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '$(inherited)'
+      config.build_settings['TARGETED_DEVICE_FAMILY'] = '$(inherited)'
+      config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = '$(inherited)'
+      config.build_settings['TVOS_DEPLOYMENT_TARGET'] = '$(inherited)'
+      config.build_settings['WATCHOS_DEPLOYMENT_TARGET'] = '$(inherited)'
+    end
+  end
 end

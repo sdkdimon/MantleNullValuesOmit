@@ -1,18 +1,16 @@
 PODS:
-  - Mantle (2.1.6):
-    - Mantle/extobjc (= 2.1.6)
-  - Mantle/extobjc (2.1.6)
+  - DLMantle (2.2)
 
 DEPENDENCIES:
-  - Mantle (~> 2.1)
+  - DLMantle (~> 2.2)
 
 SPEC REPOS:
   trunk:
-    - Mantle
+    - DLMantle
 
 SPEC CHECKSUMS:
-  Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
+  DLMantle: deb6033847123bdb43f1ebf3aed35db84380e57d
 
-PODFILE CHECKSUM: a914cb02107e0b0b919d5e087c7eb3f623042e14
+PODFILE CHECKSUM: 6fd1abe7deeb6653d547c68586f39ea069113b86
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.15.2

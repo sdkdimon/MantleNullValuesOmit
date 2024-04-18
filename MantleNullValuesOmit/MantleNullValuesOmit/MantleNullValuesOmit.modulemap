@@ -1,0 +1,4 @@
+framework module MantleNullValuesOmit {
+  umbrella header "MantleNullValuesOmit.h"
+  export *
+}
